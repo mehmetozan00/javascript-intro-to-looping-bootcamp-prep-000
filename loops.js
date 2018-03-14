@@ -1,10 +1,10 @@
 forLoop(array){
   for (let i = 0; i < 25; i++) {
     if (i===0) {
-      array[i] = ('');
+      array.push('');
     }
     else {
-      array[i] = ('s');
+      array.push('s');
     }
     return array;
   }
