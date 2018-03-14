@@ -17,3 +17,10 @@ function whileLoop(n) {
   }
   return "done";
 }
+
+  do {
+    array.pop();
+  }
+  while (array.length > -1 && maybeTrue());
+    return array;
+}
