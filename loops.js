@@ -11,7 +11,3 @@ function forLoop(array) {
   return array;
 }
 
-whileLoop(let i=25 >= 0){
-  console.log(i);
-  i--;
-}
